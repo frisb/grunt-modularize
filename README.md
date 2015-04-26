@@ -1,4 +1,4 @@
-# grunt-modularize [![Build Status: Linux](https://travis-ci.org/gruntjs/grunt-modularize.png?branch=master)](https://travis-ci.org/gruntjs/grunt-modularize)
+# grunt-modularize [![Build Status: Linux](https://travis-ci.org/frisb/grunt-modularize.png?branch=master)](https://travis-ci.org/frisb/grunt-modularize)
 
 > Providing AMD and CommonJS wrapping for traditional JavaScript files.
 
@@ -17,6 +17,7 @@ Once the plugin has been installed, it may be enabled inside your Gruntfile with
 
 ```js
 grunt.loadNpmTasks('grunt-modularize');
+```
 
 
 
