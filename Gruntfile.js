@@ -19,7 +19,7 @@ module.exports = function(grunt) {
           deps: [
             'riot',
 						{'jquery': '$'},
-						{'_': 'underscore'},
+						{'underscore': '_'},
 						{'/path/to/custom/module': 'CustomModule'}
           ],
           exports: 'Test'

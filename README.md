@@ -37,7 +37,7 @@ grunt.initConfig({
 			deps: [
 			  'riot', // path and variable name are the same
 			  {'jquery': '$'},
-			  {'_': 'underscore'},
+			  {'underscore': '_'},
 			  {'/path/to/custom/module': 'CustomModule'}
 			],
 			exports: 'MyObject'
