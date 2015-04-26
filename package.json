@@ -8,7 +8,6 @@
       "url": "http://frisB.com"
     }
   ],
-  "main": "/",
   "engines": {
     "node": ">= 0.10.x"
   },
@@ -23,6 +22,9 @@
   "scripts": {
     "test": "grunt"
   },
+  "files": [
+    "tasks"
+  ],
   "dependencies": {
     "chalk": "^1.0.0",
     "modularize": "^0.1.1"
