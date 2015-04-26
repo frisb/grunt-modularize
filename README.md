@@ -21,7 +21,7 @@ grunt.loadNpmTasks('grunt-modularize');
 
 
 
-## Requirejs task
+## Modularize task
 _Run this task with the `grunt modularize` command._
 
 Task targets and options may be specified according to the grunt [Configuring tasks](http://gruntjs.com/configuring-tasks) guide.
