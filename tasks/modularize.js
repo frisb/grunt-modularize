@@ -9,7 +9,7 @@ module.exports = function (grunt) {
 			options.input = grunt.file.read(el.src[0]);
 			var output = Modularize(options);
 			grunt.file.write(el.dest, output);
-			grunt.log.writeln('File ' + chalk.cyan(el.dest) + ' modularized.')
+			grunt.log.writeln('File ' + chalk.cyan(el.dest) + ' modularized (' + (options.type || 'umd') + ').')
 		});
 	});
 };

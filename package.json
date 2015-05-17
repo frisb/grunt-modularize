@@ -1,7 +1,7 @@
 {
   "name": "grunt-modularize",
   "description": "Provide AMD and CommonJS wrapping for traditional JavaScript files.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "contributors": [
     {
       "name": "Ashley Brener",
@@ -27,7 +27,7 @@
   ],
   "dependencies": {
     "chalk": "^1.0.0",
-    "modularize": "^0.1.1"
+    "modularize": "^0.1.2"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
