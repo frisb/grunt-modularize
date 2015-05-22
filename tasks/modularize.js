@@ -2,7 +2,7 @@ module.exports = function (grunt) {
 	var chalk = require('chalk');
 	var Modularize = require('modularize');
 
-	grunt.registerMultiTask('modularize', 'Provide AMD and CommonJS wrapping', function () {
+	grunt.registerMultiTask('modularize', 'Provide UMD, AMD or CommonJS wrapping', function () {
 		var options = this.options();
 
 		this.files.forEach(function (el) {
