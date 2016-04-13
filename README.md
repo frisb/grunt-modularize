@@ -1,6 +1,6 @@
 # grunt-modularize [![Build Status: Linux](https://travis-ci.org/frisb/grunt-modularize.png?branch=master)](https://travis-ci.org/frisb/grunt-modularize)
 
-> Providing AMD and CommonJS wrapping for traditional JavaScript files.
+> Provides AMD, CommonJS and ES6 wrapping for traditional JavaScript files.
 
 
 
